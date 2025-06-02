@@ -1,0 +1,41 @@
+import './style.css'
+
+const carta1 = document.getElementById('carta1')
+const carta2 = document.getElementById('carta2')
+const carta3 = document.getElementById('carta3')
+const carta4 = document.getElementById('carta4')
+const carta5 = document.getElementById('carta5')
+const carta6 = document.getElementById('carta6')
+const carta7 = document.getElementById('carta7')
+const carta8 = document.getElementById('carta8')
+const carta9 = document.getElementById('carta9')
+const carta10 = document.getElementById('carta10')
+const carta11 = document.getElementById('carta11')
+const carta12 = document.getElementById('carta12')
+const carta13 = document.getElementById('carta13')
+const carta14 = document.getElementById('carta14')
+const carta15 = document.getElementById('carta15')
+const carta16 = document.getElementById('carta16')
+
+const mostrarMsj = function (carta) {
+    carta.addEventListener('click', () => {
+        carta.classList.toggle('translate-y-[80%]')
+    })
+}
+
+mostrarMsj(carta1)
+mostrarMsj(carta2)
+mostrarMsj(carta3)
+mostrarMsj(carta4)
+mostrarMsj(carta5)
+mostrarMsj(carta6)
+mostrarMsj(carta7)
+mostrarMsj(carta8)
+mostrarMsj(carta9)
+mostrarMsj(carta10)
+mostrarMsj(carta11)
+mostrarMsj(carta12)
+mostrarMsj(carta13)
+mostrarMsj(carta14)
+mostrarMsj(carta15)
+mostrarMsj(carta16)
