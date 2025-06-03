@@ -31,6 +31,8 @@ const carta27 = document.getElementById('carta27')
 const carta28 = document.getElementById('carta28')
 const carta29 = document.getElementById('carta29')
 const carta30 = document.getElementById('carta30')
+const carta31 = document.getElementById('carta31')
+const carta32 = document.getElementById('carta32')
 
 const mostrarMsj = function (carta) {
     carta.addEventListener('click', () => {
@@ -69,3 +71,5 @@ mostrarMsj(carta27)
 mostrarMsj(carta28)
 mostrarMsj(carta29)
 mostrarMsj(carta30)
+mostrarMsj(carta31)
+mostrarMsj(carta32)
