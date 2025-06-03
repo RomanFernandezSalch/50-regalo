@@ -1,5 +1,6 @@
 import './style.css'
 
+const carta0 = document.getElementById('carta0')
 const carta1 = document.getElementById('carta1')
 const carta2 = document.getElementById('carta2')
 const carta3 = document.getElementById('carta3')
@@ -16,6 +17,10 @@ const carta13 = document.getElementById('carta13')
 const carta14 = document.getElementById('carta14')
 const carta15 = document.getElementById('carta15')
 const carta16 = document.getElementById('carta16')
+const carta17 = document.getElementById('carta17')
+const carta18 = document.getElementById('carta18')
+const carta19 = document.getElementById('carta19')
+const carta20 = document.getElementById('carta20')
 
 const mostrarMsj = function (carta) {
     carta.addEventListener('click', () => {
@@ -23,6 +28,7 @@ const mostrarMsj = function (carta) {
     })
 }
 
+mostrarMsj(carta0)
 mostrarMsj(carta1)
 mostrarMsj(carta2)
 mostrarMsj(carta3)
@@ -39,3 +45,7 @@ mostrarMsj(carta13)
 mostrarMsj(carta14)
 mostrarMsj(carta15)
 mostrarMsj(carta16)
+mostrarMsj(carta17)
+mostrarMsj(carta18)
+mostrarMsj(carta19)
+mostrarMsj(carta20)
